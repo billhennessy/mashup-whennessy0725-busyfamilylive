@@ -1,4 +1,4 @@
-<gm:page title="My App" authenticate="false">
+<gm:page title="My App" authenticate="true">
  
 <!--    The advanced task list application is a simple task list that stores 
    tasks per user in the ${user} feed. The application uses hierarchy to
@@ -34,4 +34,5 @@
   
  
 </gm:page>
+
 
