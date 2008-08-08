@@ -19,6 +19,9 @@
   </table>
   <gm:template id="myListTemplate">
     <table class="blue-theme" style="width:200px">
+      <tr repeat="false">
+        <td><gm:create label="Chore"/></td>
+        <td><gm:create label="Room"/></td>
       <tr repeat="true">
         <td style="padding:5px; width:160px"><gm:text ref="atom:title"/></td>
         <td style="padding:5px; width:160px"><gmd:room ref="gmd:room"/></td>        
@@ -35,6 +38,7 @@
   
  
 </gm:page>
+
 
 
 
