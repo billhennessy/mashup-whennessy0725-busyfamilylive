@@ -13,6 +13,7 @@
         <tbody repeat="true">
           <tr>
             <td><gm:text ref="atom:title"/></td>
+            <td><gm:text ref="gmd:room"/></td>
             <td><gm:template type="img"/></td>
           </tr>
         </tbody>
@@ -23,5 +24,6 @@
 </gm:page>
   
  
+
 
 
