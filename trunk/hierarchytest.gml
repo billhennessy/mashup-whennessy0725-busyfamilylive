@@ -30,7 +30,7 @@
           <tr>
             <td><gm:text ref="atom:title"/></td>
             <td><gm:text ref="gmd:room"/></td>
-            <td><gm:text ref="gmd:"/></td>
+            <td><gm:number ref="gmd:points"/></td>
             <td><gm:template type="img"/></td>
           </tr>
         </tbody>
@@ -38,14 +38,13 @@
       <gm:create label="Create new entry"/>
     </gm:template>
  
-    <gm:template id="myChoreTemplate">
-    </gm:template>
-
+   
 
 
 </gm:page>
   
  
+
 
 
 
