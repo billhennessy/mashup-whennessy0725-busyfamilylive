@@ -3,6 +3,9 @@
   <gm:list id="Projects" data="${app}/ProjectData" template="myTemplate"/>
  
 
+
+
+
   <h1> Project tasks </h1>
     <gm:list id="tasks" data="${Projects}/taskData" template="myTemplate">
       <gm:handleEvent src="Projects" />
@@ -20,10 +23,42 @@
       </table>
       <gm:create label="Create new entry"/>
     </gm:template>
+ 
+   <gm:template id="choreTemplate">
+      <table>
+        <tbody repeat="true">
+          <tr>
+            <td><gm:text ref="atom:title"/></td>
+            <td><gm:text ref="gmd:room"/></td>
+            <td><gm:text ref="gmd:"/></td>
+            <td><gm:template type="img"/></td>
+          </tr>
+        </tbody>
+      </table>
+      <gm:create label="Create new entry"/>
+    </gm:template>
+ 
+    <gm:template id="myChoreTemplate">
+    </gm:template>
+
+
 
 </gm:page>
   
  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
