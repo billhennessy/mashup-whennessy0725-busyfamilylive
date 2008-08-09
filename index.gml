@@ -24,7 +24,9 @@
         <td>Room</td>
       <tr repeat="true">
         <td style="padding:5px; width:160px"><gm:text ref="atom:title"/></td>
-        <td style="padding:5px; width:160px"><gmd:room ref="gmd:room"/></td>        
+        <td style="padding:5px; width:160px"><gm:text ref="gmd:room"/></td>
+        <td style="padding:5px; width:160px"><gm:number ref="gmd:points"/></td>  
+        
         <td style="padding:5px; width:40px"><gm:editButtons/></td>
       </tr>
       <tfoot>
@@ -38,6 +40,20 @@
   
  
 </gm:page>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
